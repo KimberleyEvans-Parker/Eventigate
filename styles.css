@@ -72,7 +72,7 @@ li a {
 }
 
 .button:hover {
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .button:active {
@@ -85,7 +85,21 @@ li a {
     background-color: white;
     padding: 0.5vw;
     padding-left: 1vw;
-    padding-right: 1vw
+    padding-right: 1vw;
+}
+
+.seemore {
+    position: absolute;
+    top: 1vw;
+    left: 0;
+    width: 21.7vw;
+    font-size: 6vw;
+    padding: 10px;
+    color: rgb(199, 199, 199);
+    translate: -50%, -50%;
+    text-align:center;
+    font-weight:bold;
+    opacity:0.8;
 }
 
 /* this will hopefully be for captions (the group names) */

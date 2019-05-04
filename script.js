@@ -53,7 +53,7 @@ function eventsuggestions() {
     <td><a 'href=pakurangalibrary.html'><div class=tablecontainer><img class=imageHolder src=pics/place1.jpg><div class=caption>Library 1</div></a></td> \
     <td><a 'href=pakurangalibrary.html'><div class=tablecontainer><img class=imageHolder src=pics/place2.jpg><div class=caption>Library 1</div></a></td> \
     <td><a 'href=pakurangalibrary.html'><div class=tablecontainer><img class=imageHolder src=pics/place3.jpg><div class=caption>Library 1</div></a></td> \
-    <td><a 'href=pakurangalibrary.html'><div class=tablecontainer><img class=imageHolder src=pics/school1.jpg><div class=caption>See More</div></a></td> \
+    <td><a 'href=groups.html'><div class=tablecontainer><img class=imageHolder src=pics/grey.jpg><div class=seemore>See More</div></a></td> \
     </tr></table>"
     document.getElementById("dash").innerHTML = "<center><h1>Event Suggestions</h1>" + table + "</center>";
 }
